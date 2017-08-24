@@ -9,7 +9,7 @@
     "test:watch": "ava --watch",
     "lint": "eslint src",
     "posttest": "npm run lint",
-    "prepublish": "npm run build"
+    "prepack": "npm run build"
   },
   "ava": {
     "babel": "inherit",
