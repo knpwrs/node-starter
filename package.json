@@ -15,8 +15,19 @@
     "babel": "inherit",
     "require": "babel-register"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knpwrs/node-starter"
+  },
+  "keywords": [
+    "node-starter"
+  ],
   "author": "Kenneth Powers <ken@kenpowers.net> (http://knpw.rs)",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/knpwrs/node-starter/issues"
+  },
+  "homepage": "https://github.com/knpwrs/node-starter#readme",
   "devDependencies": {
     "ava": "^0.22.0",
     "babel-cli": "^6.24.1",
